@@ -5,5 +5,3 @@ app = Flask(__name__)
 def home():
     return "Flask API get endpoint running"
 
-if __name__ == "__main__":
-    app.run()
